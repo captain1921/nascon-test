@@ -11,3 +11,5 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
 	res.render('response.ejs'); // Assuming 'index' is the template to render
 });
+
+module.exports = app;
